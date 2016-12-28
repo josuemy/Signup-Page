@@ -16,13 +16,15 @@
     <img src="./images/logo.png" class="logo" />
     <div class="container">
         <form class="signup-form" action="/signup/" method="post">
-            <h1 class="signup-title">Sign Up</h1>
-            <label for="email">Email</label>
-            <input placeholder="foo@bar.com" type="email" name="email" id="email" required/>
-            <label for="password">Password</label>
-            <input placeholder="1234passw0rd" type="text" name="password" id="password" required />
-            <button type="submit">Log In</button>
-            <a href="/forgot-password/new">Forgot Password?</a>
+            <fieldset name="sign-up">
+                <h1 class="signup-title">Sign Up</h1>
+                <label for="email">Email</label>
+                <input placeholder="foo@bar.com" type="email" name="email" id="email" required/>
+                <label for="password">Password</label>
+                <input placeholder="1234passw0rd" type="text" name="password" id="password" required />
+                <button type="submit">Sign Up</button>
+                <a href="/forgot-password/new">Forgot Password?</a>
+            </fieldset>
         </form>
     </div>
     <p>
