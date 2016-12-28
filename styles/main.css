@@ -24,6 +24,7 @@ body {
     border: none;
     padding: 0px;
     width: 320px;
+    margin: 0px;
 }
 
 .signup-form label {
@@ -33,7 +34,7 @@ body {
 }
 
 .signup-title {
-    color: rgb(144, 147, 152);
+    color: rgb(126, 126, 126);
     font-weight: normal;
     text-align: center;
     margin-top: 0px;
@@ -44,6 +45,7 @@ input {
     display: block;
     width: 286px;
     padding: 15px;
+    color: rgb(117, 117, 117);
     border: 2px solid rgb(226, 229, 231);
     border-radius: 3px;
 }
@@ -57,8 +59,27 @@ fieldset button {
     border: none;
     border-radius: 3px;
     color: white;
+    margin-bottom: 15px;
+    font-size: 120%;
 }
 
 fieldset button:hover {
     background-color: rgb(20, 193, 90);
+}
+
+fieldset p {
+    text-align: center;
+}
+
+fieldset p a {
+    color: rgb(159, 159, 159);
+}
+
+.login {
+    text-align: center;
+    color: white;
+}
+
+.login a {
+    color: white;
 }
