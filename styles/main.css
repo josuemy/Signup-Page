@@ -61,6 +61,7 @@ fieldset button {
     color: white;
     margin-bottom: 15px;
     font-size: 120%;
+    font-weight: bold;
 }
 
 fieldset button:hover {
